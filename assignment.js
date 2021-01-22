@@ -52,11 +52,17 @@
 
 // Solution of problem2
 function budgetCalculator(watch, mobile, laptop){
-    var watch = watch * 50;
-    var mobile = mobile * 100;
-    var laptop = laptop * 500;
-    var result = watch + mobile + laptop;
-    return result;
+    if (watch == 0 && mobile == 0 && laptop == 0){
+        console.log("You didn't buy anything.")
+    }
+    else{
+        var watch = watch * 50;
+        var mobile = mobile * 100;
+        var laptop = laptop * 500;
+        var result = watch + mobile + laptop;
+        return result;
+    }
+    
 }
-var budgetCost = budgetCalculator(5, 2, 1);
+var budgetCost = budgetCalculator(0, 0, 0);
 console.log(budgetCost);
