@@ -1,3 +1,4 @@
+
 // Solution of problem1
 function kilometerToMeter(kilo){
 
@@ -25,13 +26,9 @@ function budgetCalculator(watch, mobile, laptop){
         var result = watch + mobile + laptop;
         return result;
     }
-    
 }
-var result = budgetCalculator(-3, 0, 1);
-    console.log(result);
 
- // Solution of problem3
-
+//  Solution of problem3
  function hotelCost(days){
      if (days == 0){
          console.log("You did not check-in into hotel.")
@@ -66,7 +63,6 @@ var result = budgetCalculator(-3, 0, 1);
      
 
 // Solution of problem4
-
 function megaFriend(friendsName){
     if(friendsName = null){
         console.log("There is no Name. Please insert some name in the array")
@@ -82,8 +78,6 @@ function megaFriend(friendsName){
         }
         return megaFriendName;
     }
-
-    }
-    
+    }  
 }
 
